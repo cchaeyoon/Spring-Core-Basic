@@ -6,9 +6,9 @@ public class Member {
     private String name;
     private Grade grade;
 
-    public Member(String name, Long id, Grade grade) {
-        this.name = name;
+    public Member(Long id, String name, Grade grade) {
         this.id = id;
+        this.name = name;
         this.grade = grade;
     }
 
